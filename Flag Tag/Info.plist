@@ -37,8 +37,8 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>I need your location</string>
+	<string>Flag Tag needs your location to play.</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>This app is always running</string>
+	<string>This app is always running with your location.</string>
 </dict>
 </plist>

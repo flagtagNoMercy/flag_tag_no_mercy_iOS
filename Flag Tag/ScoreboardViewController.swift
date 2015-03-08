@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PointsViewController: UIViewController {
+class ScoreboardViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

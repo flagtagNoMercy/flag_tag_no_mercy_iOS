@@ -16,10 +16,13 @@
 		29066C171AAA8E9A00432AC6 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29066C161AAA8E9A00432AC6 /* MapViewController.swift */; };
 		29066C191AAA8EB100432AC6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29066C181AAA8EB100432AC6 /* CoreLocation.framework */; };
 		29066C1B1AAA8EB600432AC6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29066C1A1AAA8EB600432AC6 /* MapKit.framework */; };
-		29066C1D1AAA8EF000432AC6 /* PointsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29066C1C1AAA8EF000432AC6 /* PointsViewController.swift */; };
+		29066C1D1AAA8EF000432AC6 /* ScoreboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29066C1C1AAA8EF000432AC6 /* ScoreboardViewController.swift */; };
 		2941278B1AAB46E7008DAAFF /* GameSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941278A1AAB46E7008DAAFF /* GameSingleton.swift */; };
 		2941278D1AAB4C61008DAAFF /* UserSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941278C1AAB4C61008DAAFF /* UserSingleton.swift */; };
-		2941278F1AAB4DB2008DAAFF /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941278E1AAB4DB2008DAAFF /* Flag.swift */; };
+		2941278F1AAB4DB2008DAAFF /* FlagAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941278E1AAB4DB2008DAAFF /* FlagAnnotation.swift */; };
+		B61C035F1AAB96A200A52350 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C035E1AAB96A200A52350 /* APIRequest.swift */; };
+		B61C03611AAB980200A52350 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C03601AAB980200A52350 /* RegistrationViewController.swift */; };
+		B6703ED21AABDF92005A6D01 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6703ED11AABDF92005A6D01 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,10 +49,13 @@
 		29066C161AAA8E9A00432AC6 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		29066C181AAA8EB100432AC6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		29066C1A1AAA8EB600432AC6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		29066C1C1AAA8EF000432AC6 /* PointsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointsViewController.swift; sourceTree = "<group>"; };
+		29066C1C1AAA8EF000432AC6 /* ScoreboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreboardViewController.swift; sourceTree = "<group>"; };
 		2941278A1AAB46E7008DAAFF /* GameSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSingleton.swift; sourceTree = "<group>"; };
 		2941278C1AAB4C61008DAAFF /* UserSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSingleton.swift; sourceTree = "<group>"; };
-		2941278E1AAB4DB2008DAAFF /* Flag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flag.swift; sourceTree = "<group>"; };
+		2941278E1AAB4DB2008DAAFF /* FlagAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagAnnotation.swift; sourceTree = "<group>"; };
+		B61C035E1AAB96A200A52350 /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		B61C03601AAB980200A52350 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		B6703ED11AABDF92005A6D01 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +103,9 @@
 			children = (
 				294127901AAB4DC3008DAAFF /* Singletons */,
 				B66F30671AAB503A0013B6CC /* View Controllers */,
-				2941278E1AAB4DB2008DAAFF /* Flag.swift */,
+				B61C035E1AAB96A200A52350 /* APIRequest.swift */,
+				B6703ED11AABDF92005A6D01 /* Player.swift */,
+				2941278E1AAB4DB2008DAAFF /* FlagAnnotation.swift */,
 				29066BFA1AAA8D5F00432AC6 /* Main.storyboard */,
 				29066BF41AAA8D5F00432AC6 /* Supporting Files */,
 			);
@@ -144,9 +152,10 @@
 		B66F30671AAB503A0013B6CC /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				29066C161AAA8E9A00432AC6 /* MapViewController.swift */,
-				29066C1C1AAA8EF000432AC6 /* PointsViewController.swift */,
 				29066BF81AAA8D5F00432AC6 /* LoginViewController.swift */,
+				B61C03601AAB980200A52350 /* RegistrationViewController.swift */,
+				29066C161AAA8E9A00432AC6 /* MapViewController.swift */,
+				29066C1C1AAA8EF000432AC6 /* ScoreboardViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -252,11 +261,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				29066BF91AAA8D5F00432AC6 /* LoginViewController.swift in Sources */,
-				2941278F1AAB4DB2008DAAFF /* Flag.swift in Sources */,
-				29066C1D1AAA8EF000432AC6 /* PointsViewController.swift in Sources */,
+				2941278F1AAB4DB2008DAAFF /* FlagAnnotation.swift in Sources */,
+				29066C1D1AAA8EF000432AC6 /* ScoreboardViewController.swift in Sources */,
+				B61C03611AAB980200A52350 /* RegistrationViewController.swift in Sources */,
 				2941278D1AAB4C61008DAAFF /* UserSingleton.swift in Sources */,
 				29066C171AAA8E9A00432AC6 /* MapViewController.swift in Sources */,
 				2941278B1AAB46E7008DAAFF /* GameSingleton.swift in Sources */,
+				B61C035F1AAB96A200A52350 /* APIRequest.swift in Sources */,
+				B6703ED21AABDF92005A6D01 /* Player.swift in Sources */,
 				29066BF71AAA8D5F00432AC6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

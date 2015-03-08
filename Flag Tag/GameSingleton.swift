@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Ebony Nyenya and Bobby Towers. All rights reserved.
 //
 
-// GameSingleton.gameData().mixPlayers
+// GameSingleton.gameData().maxPlayers
 
 import UIKit
 
@@ -19,13 +19,14 @@ class GameSingleton: NSObject {
     
     let minPlayers = 2
     let maxPlayers = 10
-    var actviePlayers = 0
+    var activePlayers = 0
+    
+    var activePlayerArray = [Player]()
+    
+    var leaderPoints = 0
     
     // Overall game time limit = 30 min (make dynamic later)
-    var timeLimit = 1800
-    var timeCount = 0
-    var timer = NSTimer()
-    var timerIsActive = false
+    var timeLimit = 60
     
     var gameIsActive = false
     
@@ -41,13 +42,11 @@ class GameSingleton: NSObject {
         return _gameData
     }
     
-    func startGameClock() {
-        timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: Selector("timerIncrement"), userInfo: nil, repeats: true)
-        timerIsActive = true
+    func playerJoinsGame() {
+        
     }
     
-    func timerIncrement() {
-        timeCount++
+    func determineLeader() {
+        
     }
 }
-
