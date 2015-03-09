@@ -187,7 +187,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
             var customUserFlag = FlagAnnotation()
             customUserFlag.coordinate = localUserCoordinate
             customUserFlag.title = "Player 1 Flag"
-            customUserFlag.subtitle = "Booyah Baby"
+            customUserFlag.subtitle = "booyahbaby1"
             customUserFlag.flagImageName = "blackFlag92x92"
             
             gameMapView.addAnnotation(customUserFlag)
