@@ -9,8 +9,13 @@
 The Atlanta Iron Yard's internal Hackathon was an absolute blast to participate in. We would like to say a huge "Thank you!" to the people at Soltech who gave up their time to come check out what we were up to and also to judge the winners. On the iOS side, I want to personally thank my teammate Ebony for being awesome. I also want to thank my other teammates Alex, Vedika and Rachel. We did as best as we could!
 
 ## 2 Screenshots
-![Example of game in-session](https://raw.githubusercontent.com/flagtagNoMercy/flag_tag_no_mercy_iOS/master/Screenshots/0mapview.png)
 ![Example of game in-session](https://raw.githubusercontent.com/flagtagNoMercy/flag_tag_no_mercy_iOS/master/Screenshots/0mapview.png?raw=true "Example of game in-session")
+![Login screen](https://raw.githubusercontent.com/flagtagNoMercy/flag_tag_no_mercy_iOS/master/Screenshots/1login.png?raw=true "Login screen")
+![Registration screen](https://raw.githubusercontent.com/flagtagNoMercy/flag_tag_no_mercy_iOS/master/Screenshots/2registration.png?raw=true "Registration screen")
+![Game in-session](https://github.com/flagtagNoMercy/flag_tag_no_mercy_iOS/blob/master/Screenshots/3mapview.png?raw=true "Game in-session")
+![Game in-session zoomed in](https://raw.githubusercontent.com/flagtagNoMercy/flag_tag_no_mercy_iOS/master/Screenshots/4mapview.png?raw=true "Game in-session zoomed in")
+![Game in-session zoomed out](https://raw.githubusercontent.com/flagtagNoMercy/flag_tag_no_mercy_iOS/master/Screenshots/5mapview.png?raw=true "Game in-session zoomed out")
+
 
 ## 3 What we learned
 On the iOS side, we learned a lot more about API calls and processing the return data. We also had more experience with MapKit, singletons, and communicating as a group between front end, back end, and mobile. 
