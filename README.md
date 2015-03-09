@@ -6,7 +6,7 @@
 3. What we learned
 
 ## 1 Foreword
-The Atlanta Iron Yard's internal Hackathon was an absolute blast to participate in. We would like to say a huge "Thank you!" to the people at Soltech who gave up their time to come check out what we were up to and also to judge the winners. On the iOS side, I want to personally thank my teammate Ebony for being awesome. I also want to thank my other teammates Alex, Vedika and Rachel. We did as best as we could!
+The Atlanta Iron Yard's internal Hackathon was an absolute blast to participate in. We would like to say a huge "Thank you!" to the people at SolTech (http://soltech.net) who gave up their time to come check out what we were up to and also to judge the winners. On the iOS side, I want to personally thank my teammate Ebony for being awesome. I also want to thank my other teammates Alex on front end, Vedika and Rachel on back end. We got through it guys!
 
 ## 2 Screenshots
 ![Example of game in-session](https://raw.githubusercontent.com/flagtagNoMercy/flag_tag_no_mercy_iOS/master/Screenshots/0mapview.png?raw=true "Example of game in-session")
