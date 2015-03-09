@@ -9,7 +9,7 @@
 The Atlanta Iron Yard's internal Hackathon was an absolute blast to participate in. We would like to say a huge "Thank you!" to the people at SolTech (http://soltech.net) who gave up their time to come check out what we were up to and also to judge the winners. On the iOS side, I want to personally thank my teammate Ebony for being awesome. I also want to thank my other teammates Alex on front end, Vedika and Rachel on back end. We got through it guys!
 
 ## 2 Screenshots
-![Example of game in-session](https://raw.githubusercontent.com/flagtagNoMercy/flag_tag_no_mercy_iOS/master/Screenshots/0mapview.png?raw=true "Example of game in-session")
+![Example of game in-session](https://raw.githubusercontent.com/flagtagNoMercy/flag_tag_no_mercy_iOS/master/Screenshots/0mapview.png?raw=true =563x1000 "Example of game in-session")
 ![Login screen](https://raw.githubusercontent.com/flagtagNoMercy/flag_tag_no_mercy_iOS/master/Screenshots/1login.png?raw=true "Login screen")
 ![Registration screen](https://raw.githubusercontent.com/flagtagNoMercy/flag_tag_no_mercy_iOS/master/Screenshots/2registration.png?raw=true "Registration screen")
 ![Game in-session](https://github.com/flagtagNoMercy/flag_tag_no_mercy_iOS/blob/master/Screenshots/3mapview.png?raw=true "Game in-session")
