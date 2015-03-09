@@ -10,13 +10,11 @@ The Atlanta Iron Yard's internal Hackathon was an absolute blast to participate 
 
 ## 2 Screenshots
 <img src="https://raw.githubusercontent.com/flagtagNoMercy/flag_tag_no_mercy_iOS/master/Screenshots/0mapview.png?raw=true" width="563" height="1000" />
-![Example of game in-session](https://raw.githubusercontent.com/flagtagNoMercy/flag_tag_no_mercy_iOS/master/Screenshots/0mapview.png?raw=true "Example of game in-session")
-![Login screen](https://raw.githubusercontent.com/flagtagNoMercy/flag_tag_no_mercy_iOS/master/Screenshots/1login.png?raw=true "Login screen")
-![Registration screen](https://raw.githubusercontent.com/flagtagNoMercy/flag_tag_no_mercy_iOS/master/Screenshots/2registration.png?raw=true "Registration screen")
-![Game in-session](https://github.com/flagtagNoMercy/flag_tag_no_mercy_iOS/blob/master/Screenshots/3mapview.png?raw=true "Game in-session")
-![Game in-session zoomed in](https://raw.githubusercontent.com/flagtagNoMercy/flag_tag_no_mercy_iOS/master/Screenshots/4mapview.png?raw=true "Game in-session zoomed in")
-![Game in-session zoomed out](https://raw.githubusercontent.com/flagtagNoMercy/flag_tag_no_mercy_iOS/master/Screenshots/5mapview.png?raw=true "Game in-session zoomed out")
-
+<img src="https://raw.githubusercontent.com/flagtagNoMercy/flag_tag_no_mercy_iOS/master/Screenshots/1login.png?raw=true" width="563" height="1000" />
+<img src="https://raw.githubusercontent.com/flagtagNoMercy/flag_tag_no_mercy_iOS/master/Screenshots/2registration.png?raw=true" width="563" height="1000" />
+<img src="https://github.com/flagtagNoMercy/flag_tag_no_mercy_iOS/blob/master/Screenshots/3mapview.png?raw=true" width="563" height="1000" />
+<img src="https://raw.githubusercontent.com/flagtagNoMercy/flag_tag_no_mercy_iOS/master/Screenshots/4mapview.png?raw=true" width="563" height="1000" />
+<img src="https://raw.githubusercontent.com/flagtagNoMercy/flag_tag_no_mercy_iOS/master/Screenshots/5mapview.png?raw=true" width="563" height="1000" />
 
 ## 3 What we learned
 On the iOS side, we learned a lot more about API calls and processing the return data. We also had more experience with MapKit, singletons, and communicating as a group between front end, back end, and mobile. 
