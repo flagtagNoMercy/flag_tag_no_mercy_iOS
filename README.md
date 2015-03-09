@@ -10,7 +10,7 @@ The Atlanta Iron Yard's internal Hackathon was an absolute blast to participate 
 
 ## 2 Screenshots
 ![Example of game in-session](https://raw.githubusercontent.com/flagtagNoMercy/flag_tag_no_mercy_iOS/master/Screenshots/0mapview.png)
-![Example of game in-session](lagtagNoMercy/flag_tag_no_mercy_iOS/blob/master/Screenshots/0mapview.png "Example of game in-session")
+![Example of game in-session](https://raw.githubusercontent.com/flagtagNoMercy/flag_tag_no_mercy_iOS/master/Screenshots/0mapview.png?raw=true "Example of game in-session")
 
 ## 3 What we learned
 On the iOS side, we learned a lot more about API calls and processing the return data. We also had more experience with MapKit, singletons, and communicating as a group between front end, back end, and mobile. 
